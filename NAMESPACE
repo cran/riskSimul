@@ -1,0 +1,6 @@
+importFrom(Runuran, pinvd.new, udghyp, uq)
+export(SISTCopula, NVTCopula, new.portfobj)
+	   
+
+
+
