@@ -101,7 +101,7 @@ p				# stratum probabilities (I1 times I2 matrix)
 #MODEL FUNCTIONS
 ########
 
-# All simulation fuýnctions require a model and parameters object (list)
+# All simulation functions require a model and parameters object (list)
 # this object has 6 variables
 
 # 1) portfobj<-list("t" or "GH") indicates the type of marginal
