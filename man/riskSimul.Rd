@@ -1,5 +1,6 @@
 \name{riskSimul}
 \alias{riskSimul}
+\alias{riskSimul-package}
 \docType{package}
 \title{
 Risk Quantification for Stock Portfolios under the T-Copula Model
@@ -8,21 +9,15 @@ Risk Quantification for Stock Portfolios under the T-Copula Model
 This package can estimate the tail loss probabilities and conditional excess 
     for a stock portfolio. The log-returns are assumed to follow a t-copula model with generalized hyperbolic or t marginals. 
  
+}
+\details{
+To simulate the tailloss probabilities of a portfolio for which the parameters of the t-copula model with generalized hyperbolic or t marginals
+are available the following two functions can be used.
+
 \code{\link{SISTCopula}()} is the name of the function that uses stratified importance sampling (SIS) to estimate 
 a single or several tailloss probabilities and the corresponding conditional excess in a very efficient way.
 
 \code{\link{NVTCopula}()} estimates the same quantities using naive simulation (without variance reduction).
-}
-\details{
-\tabular{ll}{
-Package: \tab \cr
-Type: \tab Package\cr
-Version: \tab 0.1\cr
-Date: \tab 2014-11-07\cr
-License:\tab	GPL-2 | GPL-3\cr
-Copyright: \tab Wolfgang Hormann
-}
-
 }
 
 \author{
